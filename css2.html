@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .box{
+        width:100px;
+        height:100px;
+        background:lightblue;
+        margin:10px;
+        position:static;
+    } */
+    header,main,footer{
+    position:static;
+    padding:20px;
+    margin:10px;
+    }
+    header{background:lightblue;}
+    main{background:lightgreen;}
+    footer{background:lightgray;}
+    .box{
+        width:150px;
+        height:100px;
+        background:orange;
+        position:relative;
+        left:50px;
+        top:30px;
+    } 
+
+    .card{
+    width:200px;
+    border:1px solid black;
+    text-align:center;
+    padding:20px;
+    }
+    img{
+    width:80px;
+    border-radius:50%;
+    position:relative;
+    top:-15px;
+    }
+
+    nav{
+    background:black;
+    color:white;
+    padding:15px;
+    }
+    .logo{
+    position:relative;
+    left:20px;
+    }
+
+    .container{
+    width:300px;
+    height:200px;
+    background:lightgray;
+    position:relative;
+    }
+    .box{
+    width:80px;
+    height:80px;
+    background:red;
+    position:absolute;
+    top:20px;
+    left:30px;
+    }
+
+    .cart{
+    position:relative;
+    display:inline-block;
+    font-size:24px;
+    }
+    .badge{
+    position:absolute;
+    top:-10px;
+    right:-15px;
+    background:red;
+    color:white;
+    border-radius:50%;
+    padding:5px 8px;
+    } 
+
+    .card{
+    width:300px;
+    height:150px;
+    border:1px solid black;
+    position:relative;
+    }
+    img{
+    width:60px;
+    position:absolute;
+    top:10px;
+    right:10px;
+    } 
+
+    .gallery{
+    position:relative;
+    display:inline-block;
+    }
+    .label{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:green;
+    color:white;
+    padding:5px;
+    } 
+
+    .card{
+    width:250px;
+    border:1px solid black;
+    position:relative;
+    padding:20px;
+    }
+    .offer{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:red;
+    color:white;
+    padding:5px;
+    } 
+
+    .field{
+    position:relative;
+    width:250px;
+    }
+    input{
+    width:100%;
+    padding:10px 35px 10px 10px;
+    }
+    .icon{
+    position:absolute;
+    right:10px;
+    top:10px;
+    } 
+
+    .btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:blue;
+    color:white;
+    padding:10px;
+    } 
+
+    header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:black;
+    color:white;
+    padding:15px;
+    }
+    body{
+    margin-top:70px;
+    } 
+
+    .whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:green;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    } 
+
+    .top{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    background:black;
+    color:white;
+    padding:10px;
+    } 
+
+    nav{
+    position:sticky;
+    top:0;
+    background:black;
+    color:white;
+    padding:15px;
+    }
+    .section{
+        height:500px;
+    }
+
+    .title{
+    position:sticky;
+    top:0;
+    background:yellow;
+    padding:10px;
+    }
+    .section{
+    height:400px;
+    }
+
+    .table-container{
+    height:300px;
+    overflow:auto;
+    }
+    table{
+    width:100%;
+    border-collapse:collapse;
+    }
+    th,td{
+    border:1px solid black;
+    padding:10px;
+    }
+    th{
+    position:sticky;
+    top:0;
+    background:lightblue;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+
+    <header>Header</header>
+    <main>Main Content</main>
+    <footer>Footer</footer>
+
+    <div class="box">Relative Box</div>
+
+    <div class="box">Box 1</div>
+    <div class="box box2">Box 2</div> 
+
+    <div class="card">
+        <img src="https://via.placeholder.com/80">
+        <h3>Student</h3>
+    </div>
+
+    <nav>
+        <span class="logo">LOGO</span>
+    </nav>
+
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+    <div class="cart">Cart<span class="badge">5</span></div>
+
+    <div class="card">
+        <h3>Student ID</h3>
+        <img src="https://via.placeholder.com/60">
+    </div>
+
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300x200">
+        <div class="label">New</div>
+    </div> 
+
+    <div class="card">
+        <div class="offer">20% OFF</div>Product Name</div>
+
+    <div class="field">
+        <input type="password" placeholder="Password">
+        <span class="icon">🔒</span>
+    </div>
+
+    <div class="btn">Contact Us</div>
+
+    <header>Fixed Header</header>
+
+    <p>Scroll Down...</p>
+
+    <div class="whatsapp">💬</div>
+
+    <div class="top">Top</div>
+
+    <nav>Navigation Bar</nav>
+
+    <div class="section">Content 1</div>
+    <div class="section">Content 2</div>
+
+    <div class="title">Section 1</div>
+    <div class="section"></div>
+
+    <div class="title">Section 2</div>
+    <div class="section"></div>
+
+    <div class="title">Section 3</div>
+    <div class="section"></div>
+
+    <div class="table-container">
+<table>
+<tr>
+<th>ID</th>
+<th>Name</th>
+</tr>
+
+<tr><td>1</td><td>Student 1</td></tr>
+<tr><td>2</td><td>Student 2</td></tr>
+<tr><td>3</td><td>Student 3</td></tr>
+<tr><td>4</td><td>Student 4</td></tr>
+<tr><td>5</td><td>Student 5</td></tr>
+<tr><td>6</td><td>Student 6</td></tr>
+<tr><td>7</td><td>Student 7</td></tr>
+<tr><td>8</td><td>Student 8</td></tr>
+<tr><td>9</td><td>Student 9</td></tr>
+<tr><td>10</td><td>Student 10</td></tr>
+
+</table>
+</div>
+
+</body>
+</html>
